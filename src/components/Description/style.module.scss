@@ -83,7 +83,9 @@
             }
 
             .button{
-                position: static;
+                position: relative;
+                top: auto;
+                left: auto;
                 width: 132px;
                 height: 132px;
                 margin-top: 16px;
