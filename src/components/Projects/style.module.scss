@@ -46,6 +46,15 @@
     .modal img{
         height: auto;
     }
+
+    .modal p{
+        align-self: flex-end;
+        margin: 0px;
+        padding-bottom: 36px;
+        color: white;
+        font-size: 32px;
+        font-weight: 300;
+    }
     
     .cursor, .cursorLabel{
         width: 80px;

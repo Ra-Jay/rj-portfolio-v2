@@ -18,6 +18,12 @@
     p{
         transition: all 0.4s;
         font-weight: 300;
+
+        span{
+            display: block;
+            margin-top: 4px;
+            color: rgb(140, 140, 140);
+        }
     }
 
     &:last-of-type{
