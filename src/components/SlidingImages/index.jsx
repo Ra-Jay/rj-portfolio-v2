@@ -5,39 +5,39 @@ import Image from 'next/image';
 
 const slider1 = [
     {
-        color: "#e3e5e7",
-        src: "c2.jpg"
+        color: "#dde5ee",
+        src: "easyboat.png"
     },
     {
-        color: "#d6d7dc",
-        src: "decimal.jpg"
+        color: "#d9ece6",
+        src: "lscinspector.png"
     },
     {
-        color: "#e3e3e3",
-        src: "funny.jpg"
+        color: "#e7e3df",
+        src: "miracle.png"
     },
     {
-        color: "#21242b",
-        src: "google.jpg"
+        color: "#dfe3e8",
+        src: "4.png"
     }
 ]
 
 const slider2 = [
     {
+        color: "#d4ebe6",
+        src: "a.png"
+    },
+    {
         color: "#d4e3ec",
-        src: "maven.jpg"
+        src: "2.png"
     },
     {
-        color: "#e5e0e1",
-        src: "panda.jpg"
+        color: "#e1efe9",
+        src: "c.png"
     },
     {
-        color: "#d7d4cf",
-        src: "powell.jpg"
-    },
-    {
-        color: "#e1dad6",
-        src: "wix.jpg"
+        color: "#e3e5e7",
+        src: "5.png"
     }
 ]
 
@@ -63,7 +63,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/>
+                                    src={`/images/projects/${project.src}`}/>
                                 </div>
                             </div>
                         })
@@ -77,7 +77,7 @@ export default function index() {
                                     <Image 
                                     fill={true}
                                     alt={"image"}
-                                    src={`/images/${project.src}`}/>
+                                    src={`/images/projects/${project.src}`}/>
                                 </div>
                             </div>
                         })
