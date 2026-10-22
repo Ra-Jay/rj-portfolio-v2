@@ -70,3 +70,27 @@
     
 }
 
+@media (max-width: 768px) {
+    .projects{
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 120px;
+
+        .body{
+            margin-bottom: 48px;
+        }
+
+        .modalContainer,
+        .cursor,
+        .cursorLabel{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .projects{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}

@@ -4,3 +4,10 @@ body{
     overflow: hidden; /* Hide scrollbars */
     cursor: wait;
 }
+
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}

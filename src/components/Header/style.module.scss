@@ -147,3 +147,37 @@
     }
 }
 
+@media (max-width: 768px) {
+    .header{
+        position: fixed;
+        padding: 20px;
+        z-index: 5;
+
+        .logo{
+            .name{
+                p{
+                    &:nth-of-type(3){
+                        left: 120px;
+                    }
+                }
+            }
+        }
+
+        .nav{
+            display: none;
+        }
+    }
+
+    .headerButtonContainer{
+        transform: scale(1) !important;
+        right: 0;
+        top: 0;
+
+        .button{
+            width: 60px;
+            height: 60px;
+            margin: 14px;
+            padding: 0;
+        }
+    }
+}

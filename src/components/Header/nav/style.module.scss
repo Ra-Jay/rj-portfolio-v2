@@ -38,3 +38,36 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .menu{
+        width: 100vw;
+
+        .body{
+            padding: 92px 32px 36px 44px;
+
+            .nav{
+                font-size: 44px;
+                gap: 10px;
+                margin-top: 24px;
+
+                .header{
+                    margin-bottom: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .menu{
+        .body{
+            padding-left: 36px;
+            padding-right: 24px;
+
+            .nav{
+                font-size: 36px;
+            }
+        }
+    }
+}

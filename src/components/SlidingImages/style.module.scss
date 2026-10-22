@@ -44,3 +44,45 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .slidingImages{
+        gap: 16px;
+        margin-top: 96px;
+        overflow: hidden;
+
+        .slider{
+            gap: 16px;
+            width: 190vw;
+            left: -45vw;
+
+            .project{
+                width: 44vw;
+                height: 34vw;
+
+                .imageContainer{
+                    width: 86%;
+                    height: 82%;
+                }
+            }
+        }
+
+        .circleContainer{
+            margin-top: 72px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .slidingImages{
+        .slider{
+            width: 230vw;
+            left: -65vw;
+
+            .project{
+                width: 54vw;
+                height: 42vw;
+            }
+        }
+    }
+}

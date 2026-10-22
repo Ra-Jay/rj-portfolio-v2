@@ -5,3 +5,12 @@
     font-size: 12px;
     gap: 40px;
 }
+
+@media (max-width: 768px) {
+    .footer{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        row-gap: 14px;
+        column-gap: 24px;
+    }
+}

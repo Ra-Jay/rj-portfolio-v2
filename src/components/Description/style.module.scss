@@ -58,3 +58,51 @@
         border: 1px solid grey;
     }
 }
+
+@media (max-width: 768px) {
+    .description{
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 96px;
+
+        .body{
+            flex-direction: column;
+            gap: 24px;
+
+            p{
+                &:nth-of-type(1){
+                    font-size: 26px;
+                    line-height: 1.25;
+                }
+
+                &:nth-of-type(2){
+                    width: 100%;
+                    font-size: 16px;
+                    line-height: 1.55;
+                }
+            }
+
+            .button{
+                position: static;
+                width: 132px;
+                height: 132px;
+                margin-top: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .description{
+        padding-left: 18px;
+        padding-right: 18px;
+
+        .body{
+            p{
+                &:nth-of-type(1){
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}

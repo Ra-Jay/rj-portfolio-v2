@@ -50,4 +50,48 @@
       }
     }
   }
+
+@media (max-width: 768px) {
+  .landing{
+    min-height: 100svh;
+
+    .sliderContainer{
+      top: auto;
+      bottom: 96px;
+      left: 0;
+    }
+
+    .slider p{
+      font-size: 84px;
+      line-height: 0.95;
+      padding-right: 24px;
+    }
+
+    .description{
+      top: 38%;
+      left: 24px;
+      right: 24px;
+      font-size: 18px;
+      line-height: 1.35;
+
+      svg{
+        transform: scale(1.5);
+        margin-bottom: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .landing{
+    .slider p{
+      font-size: 68px;
+    }
+
+    .description{
+      top: 34%;
+      font-size: 16px;
+    }
+  }
+}
   
